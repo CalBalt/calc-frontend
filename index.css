@@ -22,11 +22,11 @@ header {
     width:100%;
     border-bottom: solid 1px #2c3333;
     background-color: #395B64;
+    align-items: center;
 }
 
 header .content {
     display: flex;
-    align-items: center;
     padding: 1.875rem;
     font-family: 'Poppins';
 }
@@ -39,7 +39,6 @@ header .logo {
     font-family: 'Poppins', 'Roboto';
     font-size: 32px;
     flex: 1;
-    color: #A5C9CA
 }
 
 header .icon {
