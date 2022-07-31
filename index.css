@@ -1,0 +1,46 @@
+body {
+    font-family: Roboto;
+    font-size: 16px;
+}
+
+.main-content {
+    position: relative;
+    top: 5.3125rem;
+}
+
+.center {
+    text-align: center;
+}
+
+
+/* Header Styling */
+
+header {
+    position:fixed;
+    z-index: 100;
+    width:100%;
+    border-bottom: solid 1px #2c3333;
+    background-color: #395B64;
+}
+
+header .content {
+    display: flex;
+    align-items: center;
+    padding: 1.875rem;
+    font-family: Roboto;
+}
+
+header nav ul {
+    display: flex;
+}
+
+nav li {
+    padding-left: 3.5rem;
+}
+
+nav a {
+    vertical-align: bottom;
+    line-height: 1.6;
+    font-size: 1rem;
+    color: #A5C9CA
+}
