@@ -60,10 +60,11 @@ nav a {
 /* Welcome Section */
 
 #welcome {
-    padding: .5rem 20rem;
+    /* padding: .5rem 20rem; */
     border: solid 1px #979797;
     border-radius: 4px;
     background-color: #2C3333;
+    justify-content: center;
 }
 
 #welcome .content {
