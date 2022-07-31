@@ -16,12 +16,17 @@ body {
 
 /* Header Styling */
 
+
+header .mobile {
+    display: none;
+}
+
 header {
     position:fixed;
     z-index: 100;
     width:100%;
     border-bottom: solid 1px #2c3333;
-    background-color: #395B64;
+    background-color: #2C3333;
     align-items: center;
 }
 
@@ -38,7 +43,9 @@ header nav ul {
 header .logo {
     font-family: 'Poppins', 'Roboto';
     font-size: 32px;
+    color: #A5C9CA;
     flex: 1;
+    padding-left: 1rem;
 }
 
 header .icon {
@@ -47,13 +54,35 @@ header .icon {
 
 nav li {
     padding-left: 3.5rem;
+    justify-content: flex-end;
+}
+
+nav .morepad {
+    line-height: 1.6;
 }
 
 nav a {
     vertical-align: bottom;
-    line-height: 1.6;
     font-size: 1.5rem;
     color: #A5C9CA
+}
+
+
+
+@media only screen and (max-width: 760px) {
+    header .desktop {
+        display: none;
+    }
+
+    header .mobile {
+        display: block;
+        width: 100%;
+    }
+
+    header .logo {
+        flex: 2;
+    }
+
 }
 
 /* Welcome Section */
@@ -62,13 +91,14 @@ nav a {
     /* padding: .5rem 20rem; */
     border: solid 1px #979797;
     border-radius: 4px;
-    background-color: #2C3333;
+    background-color: #395B64;
     justify-content: center;
+    align-items: center;
 }
 
 #welcome .content {
     width: 100%;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
     font-family: 'Poppins';
     font-size: 1.25rem;
     line-height: 3;
