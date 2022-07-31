@@ -6,6 +6,7 @@ body {
 .main-content {
     position: relative;
     top: 5.3125rem;
+    background-color: #2C3333;
 }
 
 .center {
@@ -54,4 +55,32 @@ nav a {
     line-height: 1.6;
     font-size: 1.5rem;
     color: #A5C9CA
+}
+
+/* Welcome Section */
+
+#welcome {
+    padding: .5rem 20rem;
+    border: solid 1px #979797;
+    border-radius: 4px;
+    background-color: #2C3333;
+}
+
+#welcome .content {
+    width: 100%;
+    margin-top: 2rem;
+    font-family: 'Poppins';
+    font-size: 1.25rem;
+    line-height: 3;
+    color: white;
+}
+
+#welcome h2 {
+    font-size: 3rem;
+    color: #A5C9CA;
+}
+
+#welcome p {
+    font-size: 2rem;
+    color: #E7F6F2;
 }
